@@ -232,7 +232,7 @@ header nav {
     line-height: 2rem;
 }
 
-#service-content-avaiable-btn{
+#service-content-avaiable-btn {
     margin-top: 2.4375rem;
     display: flex;
     align-items: center;
@@ -241,7 +241,7 @@ header nav {
     height: 100%;
     max-width: 170px;
     height: 48px;
-    border: 3px solid #3279E24D;
+    border: 1px solid #3279E24D;
     border-radius: 1rem;
     font-size: 0.875rem;
     font-weight: 700;
@@ -254,5 +254,182 @@ header nav {
 /* Inicio do about */
 
 
+#about {
+    background-color: #ECF1FA;
+    padding-bottom: 6.438rem;
+}
+
+.about-header-subtitle {
+    margin-top: 5.625rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    color: #3279E2;
+}
+
+.about-header-title {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.about-header-description {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: #333333;
+}
+
+.about-header-subdescription {
+    margin-top: 0.875rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #333333BF;
+}
+
+.about-header-btn {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 154px;
+    height: 48px;
+    border: 1px solid #3279E24D;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #3279E2;
+    margin-bottom: 7rem;
+}
+
+#about-img-box{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Fim do about */
+
+/*Inicio do Testimonials */
+
+#testimonials{
+    background-color: #062654;
+}
+
+.testimonials-header-subtitle{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    color: #AAC4EA;
+}
+
+.testimonials-header-title{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.container-card{
+    width: 99%;
+}
+
+#testimonials-cards-box{
+    padding-top: 3.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonials-cards-box-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    max-height: 448px;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    background-color: #fff;
+}
+
+
+
+
+.testimonials-cards-box-card-header{
+    width: 75%;
+    margin-top: 1.25rem;
+}
+
+.testimonials-cards-box-card-header-title{
+    margin-top: 1.31rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+.testimonials-cards-box-card-header-img-stars{
+    margin-top: 1rem;
+}
+
+.testimonials-cards-box-card-content{
+    width: 78%;
+    margin-top: 1.62rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: #333333BF;
+}
+
+.testimonials-cards-box-card-companys{
+    margin-top: 2.31rem;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #333333BF;
+    margin-bottom: 2.18rem;
+}
+
+.testimonials-cards-box-card-companys p{
+    margin-bottom: 12px;
+}
+
+.testimonials-cards-box-card-azul{
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    max-height: 448px;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    background-color: #3279E2;
+}
+
+.azul{
+    color: #FFFFFF80
+}
+
+
+
+
+
+
+
+
+/* Fim do Testimonials */
