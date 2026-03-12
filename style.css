@@ -439,8 +439,63 @@ header nav {
 }
 
 
+#testimonials-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 170px;
+    height: 48px;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #FFFFFF4B;
+    border-radius: 1rem;
+}
+
+#testimonials-box-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
 
 
+#testimonials-ad{
+    padding-top: 5.938rem;
+    width: 91%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2rem;
+    color: #fff;
+}
+
+
+#testimonials-ad-companys{
+    margin-top: 2.12rem;
+}
+
+#testimonials-ad-companys ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+#testimonials-ad-companys ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-ad-download-img-box{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
