@@ -406,8 +406,17 @@ header nav {
     margin-bottom: 2.18rem;
 }
 
-.testimonials-cards-box-card-companys p{
-    margin-bottom: 12px;
+.testimonials-cards-box-card-companys p {
+    margin-bottom: 10px;
+}
+
+.azul-bottom p{
+    margin-bottom: -2px;
+}
+
+.testimonials-cards-box-card-companys-img{
+    display: flex;
+    align-items: center;
 }
 
 .testimonials-cards-box-card-azul{
@@ -423,6 +432,10 @@ header nav {
 
 .azul{
     color: #FFFFFF80
+}
+
+.azul-title{ 
+    color: #fff;
 }
 
 
