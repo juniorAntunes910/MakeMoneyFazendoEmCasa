@@ -496,8 +496,66 @@ header nav {
     align-items: center;
     justify-content: center;
 }
-
-
-
-
 /* Fim do Testimonials */
+
+
+/*Inicio do contato */
+
+#contact{
+    background-color: #062654;
+}
+
+
+
+
+
+
+#contact-content{
+    margin-top: 6.6rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-content-subtitle{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    color: #AAC4EA;
+}
+
+.contact-content-title{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.contact-content-description{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: #fff;
+}
+
+#contact-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact-infos ul li{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    gap: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+
+
+/*FIm do contato*/
