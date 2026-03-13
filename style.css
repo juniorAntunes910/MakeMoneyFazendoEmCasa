@@ -306,7 +306,7 @@ header nav {
     margin-bottom: 7rem;
 }
 
-#about-img-box{
+#about-img-box {
     margin-top: 5rem;
     display: flex;
     align-items: center;
@@ -317,11 +317,11 @@ header nav {
 
 /*Inicio do Testimonials */
 
-#testimonials{
+#testimonials {
     background-color: #062654;
 }
 
-.testimonials-header-subtitle{
+.testimonials-header-subtitle {
     padding-top: 2rem;
     display: flex;
     align-items: center;
@@ -333,7 +333,7 @@ header nav {
     color: #AAC4EA;
 }
 
-.testimonials-header-title{
+.testimonials-header-title {
     padding-top: 1rem;
     font-size: 2.5rem;
     font-weight: 900;
@@ -342,11 +342,11 @@ header nav {
     color: #fff;
 }
 
-.container-card{
+.container-card {
     width: 99%;
 }
 
-#testimonials-cards-box{
+#testimonials-cards-box {
     padding-top: 3.375rem;
     display: flex;
     flex-direction: column;
@@ -354,7 +354,7 @@ header nav {
     gap: 1rem;
 }
 
-.testimonials-cards-box-card{
+.testimonials-cards-box-card {
     display: flex;
     flex-direction: column;
     max-width: 370px;
@@ -368,23 +368,23 @@ header nav {
 
 
 
-.testimonials-cards-box-card-header{
+.testimonials-cards-box-card-header {
     width: 75%;
     margin-top: 1.25rem;
 }
 
-.testimonials-cards-box-card-header-title{
+.testimonials-cards-box-card-header-title {
     margin-top: 1.31rem;
     font-size: 1.5rem;
     font-weight: 900;
 
 }
 
-.testimonials-cards-box-card-header-img-stars{
+.testimonials-cards-box-card-header-img-stars {
     margin-top: 1rem;
 }
 
-.testimonials-cards-box-card-content{
+.testimonials-cards-box-card-content {
     width: 78%;
     margin-top: 1.62rem;
     font-size: 1rem;
@@ -393,7 +393,7 @@ header nav {
     color: #333333BF;
 }
 
-.testimonials-cards-box-card-companys{
+.testimonials-cards-box-card-companys {
     margin-top: 2.31rem;
     width: 75%;
     display: flex;
@@ -410,16 +410,16 @@ header nav {
     margin-bottom: 10px;
 }
 
-.azul-bottom p{
+.azul-bottom p {
     margin-bottom: -2px;
 }
 
-.testimonials-cards-box-card-companys-img{
+.testimonials-cards-box-card-companys-img {
     display: flex;
     align-items: center;
 }
 
-.testimonials-cards-box-card-azul{
+.testimonials-cards-box-card-azul {
     display: flex;
     flex-direction: column;
     max-width: 370px;
@@ -430,16 +430,16 @@ header nav {
     background-color: #3279E2;
 }
 
-.azul{
+.azul {
     color: #FFFFFF80
 }
 
-.azul-title{ 
+.azul-title {
     color: #fff;
 }
 
 
-#testimonials-btn{
+#testimonials-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -453,7 +453,7 @@ header nav {
     border-radius: 1rem;
 }
 
-#testimonials-box-btn{
+#testimonials-box-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -461,7 +461,7 @@ header nav {
 }
 
 
-#testimonials-ad{
+#testimonials-ad {
     padding-top: 5.938rem;
     width: 91%;
     margin: 0 auto;
@@ -472,11 +472,11 @@ header nav {
 }
 
 
-#testimonials-ad-companys{
+#testimonials-ad-companys {
     margin-top: 2.12rem;
 }
 
-#testimonials-ad-companys ul{
+#testimonials-ad-companys ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -484,25 +484,26 @@ header nav {
     padding: 0;
 }
 
-#testimonials-ad-companys ul li{
+#testimonials-ad-companys ul li {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.testimonials-ad-download-img-box{
+.testimonials-ad-download-img-box {
     margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 11rem;
 }
+
 /* Fim do Testimonials */
 
 
 /*Inicio do contato */
 
-#contact{
+#contact {
     background-color: #062654;
 }
 
@@ -512,13 +513,13 @@ header nav {
 .card-azul {
     max-width: 350px;
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
     background-color: #3279E2;
-    border-radius: 2.5rem; 
-    padding: 40px 30px; 
+    border-radius: 2.5rem;
+    padding: 40px 30px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .card-azul h3 {
@@ -535,7 +536,7 @@ header nav {
 .card-azul input,
 .card-azul select,
 .card-azul textarea {
-    width: 100%; 
+    width: 100%;
     background-color: #fff;
     border: none;
     border-radius: 1.2rem;
@@ -548,7 +549,7 @@ header nav {
 }
 
 .card-azul textarea {
-    height: 120px; 
+    height: 120px;
     resize: none;
 }
 
@@ -556,7 +557,7 @@ header nav {
 .form-btn {
     width: 100%;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-top: 10px;
 }
 
@@ -570,7 +571,7 @@ header nav {
     font-size: 0.9rem;
 }
 
-.card-azul select{
+.card-azul select {
     appearance: none;
     -webkit-appearance: none;
     background-color: #fff;
@@ -581,14 +582,14 @@ header nav {
 
 }
 
-#contact-content{
+#contact-content {
     margin-top: 6.6rem;
     display: flex;
     flex-direction: column;
 
 }
 
-.contact-content-subtitle{
+.contact-content-subtitle {
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
@@ -596,14 +597,14 @@ header nav {
     color: #AAC4EA;
 }
 
-.contact-content-title{
+.contact-content-title {
     margin-top: 1rem;
     font-size: 2.5rem;
     font-weight: 900;
     color: #fff;
 }
 
-.contact-content-description{
+.contact-content-description {
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: 300;
@@ -611,13 +612,17 @@ header nav {
     color: #fff;
 }
 
-#contact-infos{
+#contact-infos {
     display: flex;
     flex-direction: column;
 }
 
 
-#contact-infos ul li{
+#contact-infos {
+    margin-bottom: 7.6rem;
+}
+
+#contact-infos ul li {
     margin-top: 2.5rem;
     display: flex;
     align-items: center;
@@ -627,6 +632,69 @@ header nav {
     color: #fff;
 }
 
+#info-address-p {
+    margin-top: 2rem;
+}
 
+
+.contact-infos-btn-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6.25rem;
+    background-color: #fff;
+}
+
+.contact-infos-btn-box-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2rem;
+    color: #333333;
+}
+
+#contact-btns {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.68rem;
+}
+
+.contact-infos-btn-box-btn-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 144px;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 1px solid #3279E24D;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #3279E2;
+}
+
+
+.contact-infos-btn-box-btn-started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 158px;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: #3279E2;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #fff;
+}
 
 /*FIm do contato*/
+
+
+/*Line Division 1*/
+
+#line-division-footer-1 {
+    display: flex;
+    margin-top: 4rem;
+    width: 80%;
+    height: 1px;
+    background-color: #D5D6E1;
+}
