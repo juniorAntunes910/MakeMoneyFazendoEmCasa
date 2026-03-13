@@ -406,25 +406,24 @@
     </section>
 
     <section id="contact">
-        <div id="contact-form" class="container">
-            <h3>Get In Touch</h3>
-            <form action="#" method="post">
-                <div class="contact-form-group">
-                    <input type="text" id="email" name="email" placeholder="Your email">
-                </div>
+        <div class="card-azul container">
+            <h3 class="container">Get In Touch</h3>
+            <form action="#" method="post" class="container">
 
-                <div class="contact-form-group">
-                    <input type="text" id="subject" name="subject" placeholder="Subject">
-                    <img src="Assets/Mobile/contact/Triangle.png" alt="SImbolo de triangulo">
-                </div>
+                <input type="text" id="email" name="email" placeholder="Your email">
 
-                <div>
-                    <input  id="message" name="message" placeholder="Message">
+                <div class="select-container">
+                    <select>
+                        <option value="" disabled selected>Subject</option>
+                    </select>
                 </div>
+                <textarea placeholder="Message"></textarea>
 
-                <button type="submit">
-                    SUBMIT NOW
-                </button>
+                <div class="form-btn">
+                    <button type="submit">
+                        SUBMIT NOW
+                    </button>
+                </div>
             </form>
         </div>
 
@@ -442,7 +441,8 @@
             </p>
         </div>
 
-        <div id="contact-infos" class="container">
+
+        <div id="contact-infos">
             <ul>
                 <li>
                     <div class="contact-infos-img">

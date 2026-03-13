@@ -495,6 +495,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 11rem;
 }
 /* Fim do Testimonials */
 
@@ -507,8 +508,78 @@ header nav {
 
 
 
+/* Container Principal do Card */
+.card-azul {
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto; 
+    background-color: #3279E2;
+    border-radius: 2.5rem; 
+    padding: 40px 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.card-azul h3 {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: left;
+}
 
 
+.card-azul input,
+.card-azul select,
+.card-azul textarea {
+    width: 100%; 
+    background-color: #fff;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 15px 20px;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #333;
+    outline: none;
+}
+
+.card-azul textarea {
+    height: 120px; 
+    resize: none;
+}
+
+
+.form-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px;
+}
+
+.card-azul button {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.card-azul select{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: url(Assets/Mobile/contact/Triangle.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1rem) center;
+    color: #333333BF;
+
+}
 
 #contact-content{
     margin-top: 6.6rem;
